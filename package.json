@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://manimigue.github.io",
+  "homepage": "http://manimigue.github.io/mu-app/",
   "dependencies": {
     "ajv": "^6.9.1",
     "autoprefixer": "^8.5.1",
@@ -35,6 +35,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "deploy" : "gh-pages -d build",
     "newArticle": "printf 'set your ariticle ID >  ' && read id; test -s src/mds/$id.md && npm run idError || (npm run copy -- src/mds/$id.md && echo succeed)",
     "idError": "printf 'Error: $id.md already exist \nCheck if your ID is OK\nIf you want to change your old article, find it directly from src/mds/\nFor more information, see src/mds/ERROR.md\n'",
     "copy": "cp src/INPUT.md ",

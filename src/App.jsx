@@ -88,7 +88,7 @@ class App extends Component {
       var i;
       for (i = lastID - 1; i > -2; i--) {
         const end = i == -1 ? true : false
-        Promise.resolve(['mds/' + i + '.md', this.props, this.state, end])
+        Promise.resolve(['../public/mds/' + i + '.md', this.props, this.state, end])
         .then(this.readFile)
       }
     })
