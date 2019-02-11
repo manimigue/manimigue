@@ -1,0 +1,14 @@
+react: https://orktes.github.io/atom-react/
+mighty-react-snippets: https://atom.io/packages/mighty-react-snippets
+
+snippets
+sst6: this.setState()
+props: this.props
+state: this.state
+rbm: bind method
+dp,pt6: static defaultProps,propTypes = {}
+pt{}: PropTypes.{}, many types
+rcd: import react,PropTypes,class React.Component,export default
+rnsc: function component
+rdsc: Smart Component, a new component with container
+rdred: Reducer
