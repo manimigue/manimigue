@@ -1,0 +1,86 @@
+.app {
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+.appMain {
+  background-color: rgba(210, 235, 13, 0.31) ;
+  min-height: 500px;
+}
+
+footer {
+  height : 100px;
+  background-color: rgba(11, 11, 13, 0.79);
+  text-align: center;
+  color: #fff;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer img {
+  padding-top: 20px;
+}
+
+.header {
+  background-color: #fff;
+  color: rgb(20, 155, 213);
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  width: 200px;
+  padding: 10px
+}
+
+.header-logo button {
+  float: left;
+  display: inline;
+  width: 100%;
+}
+
+.header-logo img {
+  float: left;
+  width: 100%;
+}
+
+.header-list button{
+  float: left;
+  border-style: none;
+  font-size: 16px;
+}
+
+.header-list {
+  float: right;
+  padding-right: 10px;
+}
+
+.header-list li {
+  float: left;
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.title {
+  font-family: sans-serif;
+}
+
+.contact-form input,textarea{
+  width : 400px;
+  margin-top : 10px;
+  margin-bottom : 30px;
+  padding : 20px;
+  font-size : 18px;
+  border : 1px solid #dee7ec;
+}
+
+.contact-form .submit{
+  background-color : #dee7ec;
+  color : #889eab;
+}
+
+.article {
+  margin: 10px 30px
+}
