@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cd6422819a513dfb7ef1",
+    "revision": "848fa8ecfc9b4eadbc5b",
     "url": "/mu-app/static/css/main.9b102153.chunk.css"
   },
   {
-    "revision": "cd6422819a513dfb7ef1",
-    "url": "/mu-app/static/js/main.cd642281.chunk.js"
+    "revision": "848fa8ecfc9b4eadbc5b",
+    "url": "/mu-app/static/js/main.848fa8ec.chunk.js"
   },
   {
     "revision": "d08fb4a4c045fc650536",
@@ -356,7 +356,7 @@ self.__precacheManifest = [
     "url": "/mu-app/static/media/KaTeX_Typewriter-Regular.8a6d8ed8.woff2"
   },
   {
-    "revision": "507adb8ed32b2cd2e8128907c7caadd4",
+    "revision": "c245e65b335b8b0d198984a76215867e",
     "url": "/mu-app/index.html"
   }
 ];
