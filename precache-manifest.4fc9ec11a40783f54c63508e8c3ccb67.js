@@ -1,27 +1,55 @@
 self.__precacheManifest = [
   {
-    "revision": "848fa8ecfc9b4eadbc5b",
-    "url": "/mu-app/static/css/main.9b102153.chunk.css"
+    "revision": "7a338bf3fc654c9d8728",
+    "url": "/mu-app/static/css/main.a72a1b4c.chunk.css"
   },
   {
-    "revision": "848fa8ecfc9b4eadbc5b",
-    "url": "/mu-app/static/js/main.848fa8ec.chunk.js"
+    "revision": "7a338bf3fc654c9d8728",
+    "url": "/mu-app/static/js/main.7a338bf3.chunk.js"
   },
   {
     "revision": "d08fb4a4c045fc650536",
     "url": "/mu-app/static/js/runtime~main.d08fb4a4.js"
   },
   {
-    "revision": "d674f223ffea60dd854d",
-    "url": "/mu-app/static/js/2.d674f223.chunk.js"
+    "revision": "3b6384c592aebb7cae7a",
+    "url": "/mu-app/static/js/2.3b6384c5.chunk.js"
   },
   {
     "revision": "687847e77f1156249194f14c74ca0195",
     "url": "/mu-app/static/media/INPUT.687847e7.md"
   },
   {
+    "revision": "ad01d70007a0c9861db6427c9f67b7dd",
+    "url": "/mu-app/static/media/mu-logo.ad01d700.png"
+  },
+  {
+    "revision": "0121e5d7b138be3dd9155c7b993056db",
+    "url": "/mu-app/static/media/5.0121e5d7.md"
+  },
+  {
     "revision": "9f29e79da80b8c0f9a1acc0f5b09be8f",
     "url": "/mu-app/static/media/logo.9f29e79d.png"
+  },
+  {
+    "revision": "0eac14f2c71e1faa7ebc30ce43f1a477",
+    "url": "/mu-app/static/media/mu-logo.0eac14f2.jpg"
+  },
+  {
+    "revision": "172b6e283c085d8bc7559d4a932cce2a",
+    "url": "/mu-app/static/media/0.172b6e28.md"
+  },
+  {
+    "revision": "fdde70281bb3428d37dc6a53ad55f432",
+    "url": "/mu-app/static/media/1.fdde7028.md"
+  },
+  {
+    "revision": "955c5627f2a75f836e747f502dc08b5f",
+    "url": "/mu-app/static/media/2.955c5627.md"
+  },
+  {
+    "revision": "08b8fc1b60406e892f5854407c4b2c71",
+    "url": "/mu-app/static/media/3.08b8fc1b.md"
   },
   {
     "revision": "4a48bb9237ecff22107ebf08cd1c6038",
@@ -356,7 +384,7 @@ self.__precacheManifest = [
     "url": "/mu-app/static/media/KaTeX_Typewriter-Regular.8a6d8ed8.woff2"
   },
   {
-    "revision": "c245e65b335b8b0d198984a76215867e",
+    "revision": "2d5a9dfab59cf70447331b49847dcc20",
     "url": "/mu-app/index.html"
   }
 ];
