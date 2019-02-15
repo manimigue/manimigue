@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "7a338bf3fc654c9d8728",
+    "revision": "7996d1d5a4135ab321d8",
     "url": "/mu-app/static/css/main.a72a1b4c.chunk.css"
   },
   {
-    "revision": "7a338bf3fc654c9d8728",
-    "url": "/mu-app/static/js/main.7a338bf3.chunk.js"
+    "revision": "7996d1d5a4135ab321d8",
+    "url": "/mu-app/static/js/main.7996d1d5.chunk.js"
   },
   {
     "revision": "d08fb4a4c045fc650536",
     "url": "/mu-app/static/js/runtime~main.d08fb4a4.js"
   },
   {
-    "revision": "3b6384c592aebb7cae7a",
-    "url": "/mu-app/static/js/2.3b6384c5.chunk.js"
-  },
-  {
-    "revision": "687847e77f1156249194f14c74ca0195",
-    "url": "/mu-app/static/media/INPUT.687847e7.md"
+    "revision": "59df6ac1c0eb2d94af16",
+    "url": "/mu-app/static/js/2.59df6ac1.chunk.js"
   },
   {
     "revision": "ad01d70007a0c9861db6427c9f67b7dd",
@@ -384,7 +380,7 @@ self.__precacheManifest = [
     "url": "/mu-app/static/media/KaTeX_Typewriter-Regular.8a6d8ed8.woff2"
   },
   {
-    "revision": "2d5a9dfab59cf70447331b49847dcc20",
+    "revision": "829c8bcf53378d33a4a0e95b4c95586a",
     "url": "/mu-app/index.html"
   }
 ];
