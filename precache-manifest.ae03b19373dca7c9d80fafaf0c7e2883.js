@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "1134994b669f19141152",
-    "url": "/mu-app/static/css/main.a72a1b4c.chunk.css"
+    "revision": "7b2a34b253c23b697838",
+    "url": "/mu-app/static/css/main.a92e7761.chunk.css"
   },
   {
-    "revision": "1134994b669f19141152",
-    "url": "/mu-app/static/js/main.1134994b.chunk.js"
+    "revision": "7b2a34b253c23b697838",
+    "url": "/mu-app/static/js/main.7b2a34b2.chunk.js"
   },
   {
     "revision": "d08fb4a4c045fc650536",
     "url": "/mu-app/static/js/runtime~main.d08fb4a4.js"
   },
   {
-    "revision": "59df6ac1c0eb2d94af16",
-    "url": "/mu-app/static/js/2.59df6ac1.chunk.js"
+    "revision": "719e4f4ebb655ae19b23",
+    "url": "/mu-app/static/js/2.719e4f4e.chunk.js"
   },
   {
     "revision": "ad01d70007a0c9861db6427c9f67b7dd",
@@ -22,6 +22,10 @@ self.__precacheManifest = [
   {
     "revision": "0121e5d7b138be3dd9155c7b993056db",
     "url": "/mu-app/static/media/5.0121e5d7.md"
+  },
+  {
+    "revision": "687847e77f1156249194f14c74ca0195",
+    "url": "/mu-app/static/media/INPUT.687847e7.md"
   },
   {
     "revision": "9f29e79da80b8c0f9a1acc0f5b09be8f",
@@ -380,7 +384,7 @@ self.__precacheManifest = [
     "url": "/mu-app/static/media/KaTeX_Typewriter-Regular.8a6d8ed8.woff2"
   },
   {
-    "revision": "4df251a18b698efe1435f8e443f8af6d",
+    "revision": "cafde14152cd47d1ab0304e5e3bd7613",
     "url": "/mu-app/index.html"
   }
 ];
