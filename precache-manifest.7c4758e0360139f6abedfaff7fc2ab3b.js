@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "54794e6d7c75d43b195d",
+    "revision": "b5de10b00b2e9a9a4566",
     "url": "/mu-app/static/css/main.887abd37.chunk.css"
   },
   {
-    "revision": "54794e6d7c75d43b195d",
-    "url": "/mu-app/static/js/main.54794e6d.chunk.js"
+    "revision": "b5de10b00b2e9a9a4566",
+    "url": "/mu-app/static/js/main.b5de10b0.chunk.js"
   },
   {
     "revision": "d08fb4a4c045fc650536",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/mu-app/static/media/classical-music-1838390_1280.086faa44.jpg"
   },
   {
-    "revision": "ccbca2545c8e7b4c3c212b327da60522",
+    "revision": "a3ec9171c2549298ac48ffa8214c8e4d",
     "url": "/mu-app/index.html"
   }
 ];
