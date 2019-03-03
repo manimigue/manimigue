@@ -1,12 +1,12 @@
 {
-  "name": "my-app",
+  "name": "mu-app",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://manimigue.github.io/mu-app/",
   "dependencies": {
-    "ajv": "^6.9.1",
+    "ajv": "^6.9.2",
     "autoprefixer": "^8.5.1",
-    "chokidar": "^2.0.3",
+    "chokidar": "^2.1.2",
     "deep-extend": "^0.5.1",
     "front-matter": "^2.3.0",
     "history": "^4.7.2",
@@ -15,27 +15,34 @@
     "markdown-it-highlightjs": "^3.0.0",
     "markdown-it-jsx": "^1.1.0",
     "markdown-it-katex": "^2.0.3",
+    "npm": "^6.8.0",
+    "nuka-carousel": "^4.4.8",
     "path-match": "^1.2.4",
     "postcss-cssnext": "^3.1.0",
-    "prop-types": "^15.7.1",
-    "react": "^16.8.1",
-    "react-dom": "^16.4.0",
+    "prop-types": "^15.7.2",
+    "raw.macro": "^0.3.0",
+    "react": "^16.8.3",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.3",
     "react-katex": "^2.0.2",
+    "react-markdown": "^4.0.6",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
-    "react-scripts": "^2.1.4",
+    "react-scripts": "^2.1.5",
+    "react-slick": "^0.23.2",
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
+    "slick-carousel": "^1.8.1",
     "styled-jsx-postcss": "^0.2.0",
-    "typescript": "^3.3.3"
+    "typescript": "^3.3.3333"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "newArticle": "printf 'set your ariticle ID >  ' && read id; test -s src/mds/$id.md && npm run idError || (npm run copy -- src/mds/$id.md && echo succeed)",
     "idError": "printf 'Error: $id.md already exist \nCheck if your ID is OK\nIf you want to change your old article, find it directly from src/mds/\nFor more information, see src/mds/ERROR.md\n'",
     "copy": "cp src/INPUT.md ",
@@ -48,6 +55,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.0.1",
+    "raw-loader": "^1.0.0"
   }
 }

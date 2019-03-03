@@ -4,6 +4,17 @@ import { push } from 'react-router-redux';
 import '../index.css';
 
 class Header extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      active: false,
+    }
+  }
+
+  toggleClass() {
+    const currentState = this.state.active;
+    this.setState({active:!currentState})
+  }
   render() {
     const lists = this.props.links.map(link => {
       return (
@@ -13,10 +24,13 @@ class Header extends Component {
       );
     });
     return (
-      <div className='header'>
+      <div className='header' >
         <div className='header-logo'><button onClick={() => this.props.linkToPage('Route','/')}>
-          <img src='https://hkn.jp/img/logo2-color.png' alt='hokan' width='15%'/>
+          <img src='https://hkn.jp/img/logo2-color.png' alt='Mμsicart' width='15%'/>
         </button></div>
+        <button key='headerButton' className={this.state.active? 'headerActive':'headerInactive'}>
+          A
+        </button>
         <div className='header-list'><ul>
           {lists}
         </ul></div>

@@ -10,7 +10,7 @@ const initialState = {
   lastID: 0,
   readArticle : [],
   title : 'Welcome!',
-  body : md.render('# Loading')
+  id : null
 };
 
 export default function articlesReducer(state = initialState, action = {}) {
@@ -44,12 +44,14 @@ export default function articlesReducer(state = initialState, action = {}) {
       };
     case 'SET_ARTICLE':
       const id = state.urlToID[action.payload.url];
+      console.log('2');
+      console.log(id);
+      console.log('2');
       return{
         ...state,
         title : state.articles[id].title,
-        body : md.render(state.articles[id].body)
+        id : id
       };
-        break;
     default:
       return state;
   }
