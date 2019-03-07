@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "206df95baf108eaeaaca",
+    "revision": "8bb245fd257ebc22bdd1",
     "url": "/mu-app/static/css/main.f28f3e36.chunk.css"
   },
   {
-    "revision": "206df95baf108eaeaaca",
-    "url": "/mu-app/static/js/main.206df95b.chunk.js"
+    "revision": "8bb245fd257ebc22bdd1",
+    "url": "/mu-app/static/js/main.8bb245fd.chunk.js"
   },
   {
     "revision": "d08fb4a4c045fc650536",
     "url": "/mu-app/static/js/runtime~main.d08fb4a4.js"
   },
   {
-    "revision": "9bf2c1dff58d544ec291",
-    "url": "/mu-app/static/js/2.9bf2c1df.chunk.js"
+    "revision": "5533d8338cc53c411e27",
+    "url": "/mu-app/static/js/2.5533d833.chunk.js"
   },
   {
     "revision": "ad01d70007a0c9861db6427c9f67b7dd",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/mu-app/static/media/700i.4f21f865.woff"
   },
   {
-    "revision": "26b4e459a175e46603d374787d72b7e2",
-    "url": "/mu-app/static/media/700.26b4e459.woff"
-  },
-  {
     "revision": "27b47b8f1ad5f3b1855708f146818661",
     "url": "/mu-app/static/media/400.27b47b8f.woff"
+  },
+  {
+    "revision": "26b4e459a175e46603d374787d72b7e2",
+    "url": "/mu-app/static/media/700.26b4e459.woff"
   },
   {
     "revision": "1608fee3c87a949cd539afe74e342f6a",
@@ -284,7 +284,7 @@ self.__precacheManifest = [
     "url": "/mu-app/static/media/classical-music-1838390_1280.086faa44.jpg"
   },
   {
-    "revision": "018a3c5ea737f2caabefd03bc3e76f6a",
+    "revision": "f05ad9608123a41c7bfae69ec871f680",
     "url": "/mu-app/index.html"
   }
 ];
