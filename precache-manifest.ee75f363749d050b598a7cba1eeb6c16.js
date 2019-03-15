@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4de0f8164a5463771325",
-    "url": "/mu-app/static/css/main.5c2f8140.chunk.css"
+    "revision": "67d04a869850c5516573",
+    "url": "/mu-app/static/css/main.ad94d29b.chunk.css"
   },
   {
-    "revision": "4de0f8164a5463771325",
-    "url": "/mu-app/static/js/main.4de0f816.chunk.js"
+    "revision": "67d04a869850c5516573",
+    "url": "/mu-app/static/js/main.67d04a86.chunk.js"
   },
   {
     "revision": "d08fb4a4c045fc650536",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/mu-app/static/js/2.4cf7c9ca.chunk.js"
   },
   {
-    "revision": "4f21f865f4c8ca08a7868bd819a2fd21",
-    "url": "/mu-app/static/media/700i.4f21f865.woff"
-  },
-  {
     "revision": "e0217edfd64fcf067f36233bb300b8fc",
     "url": "/mu-app/static/media/400i.e0217edf.woff"
+  },
+  {
+    "revision": "4f21f865f4c8ca08a7868bd819a2fd21",
+    "url": "/mu-app/static/media/700i.4f21f865.woff"
   },
   {
     "revision": "27b47b8f1ad5f3b1855708f146818661",
@@ -284,7 +284,7 @@ self.__precacheManifest = [
     "url": "/mu-app/static/media/IMG_8095.3d69f364.jpg"
   },
   {
-    "revision": "2473f512a42b145084df74586d74723d",
+    "revision": "93403ade01fdc01f096c9e7d384a71e9",
     "url": "/mu-app/index.html"
   }
 ];
