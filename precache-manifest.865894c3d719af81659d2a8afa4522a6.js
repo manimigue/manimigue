@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3006ee2cdd5c87391871",
-    "url": "/mu-app/static/css/main.e8af2e55.chunk.css"
+    "revision": "2f02cac3d33a1f3f44e3",
+    "url": "/mu-app/static/css/main.5c2f8140.chunk.css"
   },
   {
-    "revision": "3006ee2cdd5c87391871",
-    "url": "/mu-app/static/js/main.3006ee2c.chunk.js"
+    "revision": "2f02cac3d33a1f3f44e3",
+    "url": "/mu-app/static/js/main.2f02cac3.chunk.js"
   },
   {
     "revision": "d08fb4a4c045fc650536",
@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/mu-app/static/js/2.b41fb4c4.chunk.js"
   },
   {
-    "revision": "4f21f865f4c8ca08a7868bd819a2fd21",
-    "url": "/mu-app/static/media/700i.4f21f865.woff"
-  },
-  {
     "revision": "e0217edfd64fcf067f36233bb300b8fc",
     "url": "/mu-app/static/media/400i.e0217edf.woff"
+  },
+  {
+    "revision": "4f21f865f4c8ca08a7868bd819a2fd21",
+    "url": "/mu-app/static/media/700i.4f21f865.woff"
   },
   {
     "revision": "27b47b8f1ad5f3b1855708f146818661",
@@ -284,7 +284,7 @@ self.__precacheManifest = [
     "url": "/mu-app/static/media/IMG_8095.3d69f364.jpg"
   },
   {
-    "revision": "30bbc07fd44dd6a9d06a7498bd38abed",
+    "revision": "4e6eb88ec5b73a47fa37c2b75da20316",
     "url": "/mu-app/index.html"
   }
 ];
