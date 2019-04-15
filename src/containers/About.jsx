@@ -1,11 +1,7 @@
-import Carousel from 'nuka-carousel'
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { push } from 'react-router-redux';
 import '../index.css';
-
-import Logo from '../img/mu-logo.png'
-import twitter from '../img/twitter_icon.png'
+import Twitter from '../components/twitter'
 
 class About extends Component {
   constructor(props) {
@@ -16,17 +12,20 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h1>Orchestra Mμsicart に関して</h1>
+        <h2 className='title'>About Orchestra <span className='musicart'>Mμsicart</span></h2>
         <p>説明</p>
+        <Twitter />
       </div>
     );
   }
 }
 
-const mapStateToProps = ({links}) => {
-};
+const mapStateToProps = ({links}) => ({
 
-const mapDispatchToProps = (dispatch) => {
-};
+});
+
+const mapDispatchToProps = (dispatch) => ({
+
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(About);

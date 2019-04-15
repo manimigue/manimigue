@@ -1,28 +1,20 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import '../index.css';
+import React from 'react';
 
-class Contact extends Component {
-  render() {
-    return (
-      <div className="contact-form">
-        <h2 className="title">お問い合わせ</h2>
+const Contact = () => {
+  return (
+    <div className="contact-form">
+      <h2 className="title">お問い合わせ</h2>
+      <form method="POST" action="https://formspree.io/manimigue0701@gmail.com">
+        <p>お名前</p>
+        <input type='text' name='お名前' placeholder="佐藤　太郎" />
         <p>メールアドレス</p>
-        <input />
+        <input type="email" name="返信先" placeholder="you@example.com"/>
         <p>お問い合わせ内容</p>
-        <textarea></textarea>
-        <p><input className='submit' type="submit" /></p>
-      </div>
-    );
-  }
+        <textarea name='お問い合わせ内容'></textarea>
+        <input className='submit' type="submit" value='Send'/>
+      </form>
+    </div>
+  )
 }
 
-const mapStateToProps = ({tasks}) => ({
-  tasks:tasks.tasks
-});
-
-const mapDispatchToProps = (dispatch) => ({
-
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(Contact);
+export default Contact

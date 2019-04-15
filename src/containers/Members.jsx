@@ -1,53 +1,56 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { push } from 'react-router-redux';
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tab';
 import '../index.css';
-import '../static/css/members_icon.css'
+import '../static/css/members.css'
 
 class Members extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      key: 'Orchestra',
+    };
+  }
+
   render() {
-    const lists = this.props.links.map(link => {
+    const tabs = this.props.tabs.map(tab => {
       const card_style = {
-        borderColor: link.color
+        borderColor: tab.color
       };
       const header_style = {
-          color: link.color,
-          borderBottomColor: link.color,
-          backgroundColor: link.background
+          color: tab.color,
+          borderBottomColor: tab.color,
+          backgroundColor: tab.background
       };
       const description_style = {
-        color: link.color
+        color: tab.color
       };
       return (
-        <div className="card" key={link.text} style={card_style}
-          onClick={() => this.props.linkToPage(link.type,link.url)}>
-          <div className="card-header" style={header_style}>{link.head}</div>
-          <div className="card-main">
-            <i className="material-icons">{link.icon}</i>
-            <div className="main-description" style={description_style}>{link.text}</div>
-           </div>
-        </div>
+        <Tab eventKey={tab.tab} color={tab.color} title={tab.tab}>
+          <h2>{tab.head}</h2>
+          <p><i className="material-icons" color={tab.color}>{tab.icon}</i>{tab.sub}</p>
+          {tab.text}
+          <p>ご連絡は<a onClick={()=>this.props.linkToPage(tab.type,tab.url)}>お問い合わせフォーム</a>まで</p>
+        </Tab>
       );
     });
     return (
-      <div className="Members-form">
-        <h2 className="title">募集</h2>
-        <p>ただいま以下のポストを募集しております</p>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" />
-        <div className="members-card">
-          <div className='cards'>
-            {lists}
-          </div>
-        </div>
-      </div>
+      <Tabs
+        id="member-tab"
+        activeKey={this.state.key}
+        onSelect={key => this.setState({ key })}
+      >
+        {tabs}
+      </Tabs>
     );
   }
 }
 
 const mapStateToProps = ({links}) => {
   return{
-    links: links.membersLinks
+    tabs: links.membersLinks
   };
 };
 

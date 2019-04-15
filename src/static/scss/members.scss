@@ -1,0 +1,17 @@
+.tab-content {
+  font-family: "HiraKakuProN-W6", "ヒラギノ角ゴ ProN W6",  Meiryo, 'メイリオ', sans-serif;
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Josefin Sans","游ゴシック体",Yu Gothic,YuGothic,"ヒラギノ角ゴ Pro",Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,sans-serif;
+    margin-top: 20px;
+  }
+  a {
+    color: #4183C4 !important;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

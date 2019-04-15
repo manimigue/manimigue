@@ -2,12 +2,12 @@
   display: flex;
   flex-flow: column;
   min-height: 100vh;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 .main{
   flex: 1;
-  margin: 10px 0;
+  margin: 0 10px;
 }
 
 .app {
@@ -21,19 +21,20 @@
 }
 
 footer {
-  background-color: rgba(62, 135, 221, 0.79);
+  background-color: #000;
   align-items: flex-start;
   display: flex;
   flex-flow: column;
   color: #fff;
   margin-top: 20;
   height: 200px;
+  width: 100%;
+  line-height: 1.625rem;
 }
 
 .footer-main {
   margin-left: 50px;
-  height: 50px;
-  width: 100%;
+  width: auto;
 }
 
 footer .footer-main a{
@@ -42,8 +43,6 @@ footer .footer-main a{
 
 footer .footer-main h2{
   text-align: left;
-  font-style: italic;
-  font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
 footer .links {
@@ -54,9 +53,11 @@ footer .links {
 }
 
 footer .links img {
+  cursor: pointer;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: 20px;
-  height: 40%;
+  height: 30%;
   width: auto;
 
 }
@@ -72,55 +73,6 @@ footer .links ul >*{
   margin-right: 50px;
   padding-bottom: 0px;
   border-bottom: 1px solid white;
-}
-
-.header {
-  background-color: #fff;
-  color: rgb(20, 155, 213);
-  height: auto;
-  display: block;
-  margin: 10px 10px;
-}
-
-.header-logo {
-  float: left;
-  width: 200px;
-  padding: 10px
-}
-
-.header-logo button {
-  float: left;
-  display: inline;
-  width: 100%;
-}
-
-.header-logo img {
-  float: left;
-  width: 100%;
-}
-
-.header-list button{
-  cursor: pointer;
-  float: left;
-  border-style: none;
-  background: none;
-  font-size: 16px;
-  font-family: 'Josefin Sans', sans-serif;
-}
-
-.header-list {
-  float: right;
-  padding-right: 10px;
-}
-
-.header-list li {
-  float: left;
-  list-style: none;
-  padding: 0px 20px;
-}
-
-#headerButton {
-  display: none;
 }
 
 .slides {
@@ -141,14 +93,22 @@ footer .links ul >*{
 }
 
 .title {
-  font-family: sans-serif;
+  padding: 20px 0px 0px;
+  font-family: "Josefin Sans","游ゴシック体",Yu Gothic,YuGothic,"ヒラギノ角ゴ Pro",Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,sans-serif;
+}
+
+.musicart {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  font-style: italic;
 }
 
 .contact-form input,textarea{
-  width : 400px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top : 10px;
   margin-bottom : 30px;
-  padding : 20px;
+  padding : 18px;
   font-size : 18px;
   border : 1px solid #dee7ec;
 }
@@ -156,17 +116,46 @@ footer .links ul >*{
 .contact-form .submit{
   background-color : #dee7ec;
   color : #889eab;
+  transition: .3s ease;
+
+}
+
+.contact-form .submit:hover{
+  background-color : #b7d4e4;
+  color: rgb(136, 86, 223);
+  cursor: pointer;
+}
+
+.twitter {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 420px;
+}
+
+@media only screen and (min-width:768px) {
+  footer {
+    height: 150px;
+  }
+  .contact-form input, textarea{
+    width : 400px;
+    display: block;
+    margin-left: 0;
+  }
+  .twitter{
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width:460px) {
+  footer {
+    height: 250px;
+  }
+  .twitter {
+    width: 100%;
+  }
 }
 
 .article {
   margin: 10px 30px
-}
-
-@media (max-width: 762px) {
-  .headerActive {
-
-  }
-  .headerInactive{
-
-  }
 }

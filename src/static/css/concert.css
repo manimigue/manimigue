@@ -1,0 +1,281 @@
+.body.concert {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background-color: #363B40;
+  color: #b8bfc6;
+  border-color: transparent;
+  font-style: normal;
+  line-height: 1.625rem;
+}
+.body.concert .main {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.body.concert .main button,
+.body.concert .main input,
+.body.concert .main select,
+.body.concert .main textarea {
+  color: #b8bfc6;
+  border-color: transparent;
+}
+.body.concert .main button,
+.body.concert .main input,
+.body.concert .main select,
+.body.concert .main textarea {
+  font-style: normal;
+  line-height: 1.625rem;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.body.concert .main hr {
+  height: 2px;
+  border: 0;
+  margin: 24px 0 !important;
+}
+.body.concert .main h1,
+.body.concert .main h2,
+.body.concert .main h3,
+.body.concert .main h4,
+.body.concert .main h5,
+.body.concert .main h6 {
+  font-family: "Lucida Grande", "Corbel", sans-serif;
+  font-weight: normal;
+  clear: both;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  color: #DEDEDE;
+}
+.body.concert .main h1 {
+  font-size: 2.5rem;
+  /* 36px */
+  line-height: 2.75rem;
+  /* 40px */
+  margin-bottom: 1.5rem;
+  /* 24px */
+  letter-spacing: -1.5px;
+}
+.body.concert .main h2 {
+  font-size: 1.63rem;
+  /* 24px */
+  line-height: 1.875rem;
+  /* 30px */
+  margin-bottom: 1.5rem;
+  /* 24px */
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.body.concert .main h3 {
+  font-size: 1.17rem;
+  /* 18px */
+  line-height: 1.5rem;
+  /* 24px */
+  margin-bottom: 1.5rem;
+  /* 24px */
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.body.concert .main h4 {
+  font-size: 1.12rem;
+  /* 16px */
+  line-height: 1.375rem;
+  /* 22px */
+  margin-bottom: 1.5rem;
+  /* 24px */
+  color: white;
+}
+.body.concert .main h5 {
+  font-size: 0.97rem;
+  /* 16px */
+  line-height: 1.25rem;
+  /* 22px */
+  margin-bottom: 1.5rem;
+  /* 24px */
+  font-weight: bold;
+}
+.body.concert .main h6 {
+  font-size: 0.93rem;
+  /* 16px */
+  line-height: 1rem;
+  /* 16px */
+  margin-bottom: 0.75rem;
+  color: white;
+}
+.body.concert .main a {
+  text-decoration: none;
+  outline: 0;
+}
+.body.concert .main a:hover {
+  outline: 0;
+}
+.body.concert .main a:focus {
+  outline: thin dotted;
+}
+.body.concert .main sup {
+  background-color: #555;
+  color: #ddd;
+}
+.body.concert .main img {
+  width: 100%;
+  display: block;
+}
+.body.concert .main p {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.body.concert .main p img {
+  max-width: 90%;
+  min-width: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .body.concert .main img {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .body.concert .main p img {
+    max-width: 70%;
+  }
+}
+.body.concert .main p,
+.body.concert .main ul,
+.body.concert .main dd,
+.body.concert .main ol,
+.body.concert .main hr,
+.body.concert .main address,
+.body.concert .main pre,
+.body.concert .main table,
+.body.concert .main iframe {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  /* 24px */
+}
+.body.concert .main li > blockquote {
+  margin-bottom: 0;
+}
+.body.concert .main audio:not([controls]) {
+  display: none;
+}
+.body.concert .main [hidden] {
+  display: none;
+}
+.body.concert .main ul,
+.body.concert .main ol {
+  padding: 0 0 0 1.875rem;
+  /* 30px */
+}
+.body.concert .main ul {
+  list-style: square;
+}
+.body.concert .main ol {
+  list-style: decimal;
+}
+.body.concert .main ul ul,
+.body.concert .main ol ol,
+.body.concert .main ul ol,
+.body.concert .main ol ul {
+  margin: 0;
+}
+.body.concert .main b,
+.body.concert .main th,
+.body.concert .main dt,
+.body.concert .main strong {
+  font-weight: bold;
+}
+.body.concert .main i,
+.body.concert .main em,
+.body.concert .main dfn,
+.body.concert .main cite {
+  font-style: italic;
+}
+.body.concert .main blockquote {
+  padding-left: 1.875rem;
+  margin: 0 0 1.875rem 1.875rem;
+  border-left: solid 2px #474d54;
+  padding-left: 30px;
+  margin-top: 35px;
+}
+.body.concert .main pre,
+.body.concert .main code,
+.body.concert .main kbd,
+.body.concert .main tt,
+.body.concert .main var {
+  background: rgba(0, 0, 0, 0.05);
+  font-size: 0.875rem;
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+.body.concert .main ul, .body.concert .main ol {
+  padding-left: 20px;
+  overflow: scroll;
+}
+.body.concert .main kbd {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #fff;
+  background-color: #333;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.body.concert .main code,
+.body.concert .main kbd,
+.body.concert .main tt,
+.body.concert .main var {
+  padding: 2px 5px;
+}
+.body.concert .main table {
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.body.concert .main th,
+.body.concert .main td {
+  padding: 5px 10px;
+  vertical-align: top;
+}
+.body.concert .main a {
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.body.concert .main hr {
+  background: #474d54;
+}
+.body.concert .main h1 {
+  margin-top: 2em;
+}
+.body.concert .main a {
+  color: #e0e0e0;
+  text-decoration: underline;
+}
+.body.concert .main a:hover {
+  color: #fff;
+}
+.body.concert .main .mjx-chtml {
+  color: #81b1db;
+}
+.body.concert .main b,
+.body.concert .main th,
+.body.concert .main dt,
+.body.concert .main strong {
+  color: #DEDEDE;
+  /* variable */
+}
+.body.concert .main mark {
+  background: #D3D40E;
+}
+.body.concert .main blockquote {
+  color: #9DA2A6;
+}
+.body.concert .main table a {
+  color: #DEDEDE;
+  /* variable */
+}
+.body.concert .main th,
+.body.concert .main td {
+  border: solid 1px #474d54;
+  /* variable */
+}
+
+/*# sourceMappingURL=concert.css.map */

@@ -4,7 +4,7 @@ import { push } from 'react-router-redux';
 import '../index.css';
 
 import Logo from '../img/mu-logo.png'
-import twitter from '../img/twitter_icon.png'
+import twitter from '../img/twitter-64.png'
 
 class Footer extends Component {
 
@@ -22,12 +22,14 @@ class Footer extends Component {
     return (
       <footer>
         <div className='footer-main'>
-          <h2>M&mu;sicart</h2>
+          <h2><span className='musicart' >M&mu;sicart</span></h2>
         </div>
         <div className='links'>
           <ul>{lists}</ul>
-          <img src={Logo} alt='Mμsicart' size='60%'/>
-          <a href='https://twitter.com/orch_musicart'><img src={twitter} alt='twitter' width='15%'/></a>
+          <img src={Logo} alt='Mμsicart' size='60%' onClick={() => this.props.linkToPage('Route','/')}/>
+          <a href='https://twitter.com/orch_musicart'>
+            <img className='twitter' src={twitter} alt='twitter' width='5%'/>
+          </a>
         </div>
       </footer>
     );

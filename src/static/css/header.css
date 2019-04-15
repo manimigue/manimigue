@@ -1,0 +1,35 @@
+.navbar {
+  transition: .3s ease;
+  font-family: "Josefin Sans","游ゴシック体",Yu Gothic,YuGothic,"ヒラギノ角ゴ Pro",Hiragino Kaku Gothic Pro,"メイリオ",Meiryo,sans-serif;
+}
+
+.navbar.hide {
+  top: -100px;
+  transition: .3s ease;
+}
+
+@media only screen and (min-width:768px){
+  .navbar.hide {
+    top: 0px;
+    transition: none;
+  }
+  .navbar {
+    transition: none;
+  }
+}
+
+@media only screen and (max-width:460px){
+  .navbar.hide {
+    top: -150px;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    line-height: 1.625rem;
+    color: rgba(0,0,0,.7) ;
+    transition: .3s ease !important;
+}
+
+.navbar-light .navbar-nav .nav-link :hover{
+    color: #000 ;
+}

@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Open Sans Regular'),url('./github/400.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: normal;
+    src: local('Open Sans Italic'),url('./github/400i.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    src: local('Open Sans Bold'),url('./github/700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: bold;
+    src: local('Open Sans Bold Italic'),url('./github/700i.woff') format('woff');
+}
+
+.article ul,ol {
+  padding-left: 20px;
+  overflow: scroll;
+}
+
+.article a {
+    color: #4183C4;
+}
+.article h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+.article h1:hover a.anchor,
+.article h2:hover a.anchor,
+.article h3:hover a.anchor,
+.article h4:hover a.anchor,
+.article h5:hover a.anchor,
+.article h6:hover a.anchor {
+    /*background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;*/
+    text-decoration: none;
+}
+.article h1 tt,
+.article h1 code {
+    font-size: inherit;
+}
+.article h2 tt,
+.article h2 code {
+    font-size: inherit;
+}
+.article h3 tt,
+.article h3 code {
+    font-size: inherit;
+}
+.article h4 tt,
+.article h4 code {
+    font-size: inherit;
+}
+.article h5 tt,
+.article h5 code {
+    font-size: inherit;
+}
+.article h6 tt,
+.article h6 code {
+    font-size: inherit;
+}
+.article h1 {
+    padding-bottom: .3em;
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+.article h2, .article-title h2 {
+   padding-bottom: .3em;
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+.article h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+.article h4 {
+    font-size: 1.25em;
+}
+.article h5 {
+    font-size: 1em;
+}
+.article h6 {
+   font-size: 1em;
+    color: #777;
+}
+.article p,
+.article blockquote,
+.article ul,
+.article ol,
+.article dl,
+.article table{
+    margin: 0.4em 0;
+}
+
+.article p img{
+  max-width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article li>ol,
+.article li>ul {
+    margin: 0 0;
+}
+.article hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+.article li p.first {
+    display: inline-block;
+}
+.article ul,
+.article ol {
+    padding-left: 30px;
+}
+.article ul:first-child,
+.article ol:first-child {
+    margin-top: 0;
+}
+.article ul:last-child,
+.article ol:last-child {
+    margin-bottom: 0;
+}
+.article blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+.article blockquote blockquote {
+    padding-right: 0;
+}
+.article table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 4px 2px 4px;
+}
+
+.article img{
+  max-width: 100%;
+  min-width: 75%
+}
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    .article table,
+    .article pre {
+        page-break-inside: avoid;
+    }
+    .article pre {
+        word-wrap: break-word;
+    }
+}
+
+.MathJax_SVG_Display .MathJax_SVG{
+  width: 100%;
+}
