@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 
-routes = (articles, path) => {
+const routes = (articles, path) => {
   return (
     articles.map((article,i) => {
       var url = path + '/' + article.url

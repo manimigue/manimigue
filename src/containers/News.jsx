@@ -7,7 +7,7 @@ class News extends Component {
   render() {
     console.log(this.props);
     return (
-      <Articles title='News' log={log} />
+      <Articles title='News' log={log} type='news'/>
     );
   }
 }

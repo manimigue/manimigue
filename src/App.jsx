@@ -18,8 +18,8 @@ import './static/css/articles.css'
 import './static/css/github1.css'
 import './static/css/concert.css'
 
-import news from './news'
-import concert from './concert'
+import concertRoutes from './concert';
+import newsRoutes from './news';
 
 console.log('public url: ', process.env.PUBLIC_URL)
 
